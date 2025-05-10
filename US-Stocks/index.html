@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="dark-theme">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美股走勢圖</title>
+    <link rel="stylesheet" href="../PageStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- 返回頂部按鈕 -->
+    <button id="back-to-top" class="back-to-top" aria-label="返回頂部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="container">
+        <nav class="top-nav">
+            <a href="../" class="back-button">
+                <i class="fas fa-arrow-left"></i> 返回
+            </a>
+        </nav>
+
+        <div class="title">
+            <i class="fas fa-chart-line title-icon pulse"></i>
+            <h1>美股走勢圖</h1>
+            <p class="subtitle">KKKKKK線圖</p>
+            <!-- <p class="description"> </p> -->
+        </div>
+
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="US-StockSearch" placeholder="請輸入股票名稱或代號..." autocomplete="off">
+            <div class="search-hint">例如：AAPL、MSFT、TSLA、AMZN、NVDA...</div>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+
+        <!-- 新增說明區塊 -->
+        <div class="info-section">
+            <h2><i class="fas fa-info-circle"></i> 使用說明</h2>
+
+            <section class="info-block">
+                <h3><i class="fas fa-tools"></i> 關於本工具</h3>
+                <p>這是一個簡單的美股走勢圖查詢工具，提供歷史的股票K線圖資訊，協助您進行分析。</p>
+            </section>
+
+            <section class="info-block">
+                <h3><i class="fas fa-question-circle"></i> 如何使用</h3>
+                <ul>
+                    <li>在搜尋框輸入股票代號或公司名稱</li>
+                    <li>從下拉選單中選擇想要查看的股票</li>
+                    <li>查看K線圖及相關技術指標</li>
+                </ul>
+            </section>
+
+            <section class="info-block">
+                <h3><i class="fas fa-list"></i> 可用頁面</h3>
+                <div class="stock-grid">
+                    <a href="./page/AAPL_KLINE.html">AAPL</a>
+                    <a href="./page/AMZN_KLINE.html">AMZN</a>
+                    <a href="./page/BA_KLINE.html">BA</a>
+                    <a href="./page/DIS_KLINE.html">DIS</a>
+                    <a href="./page/GOOG_KLINE.html">GOOGL</a>
+                    <a href="./page/JNJ_KLINE.html">JNJ</a>
+                    <a href="./page/KO_KLINE.html">KO</a>
+                    <a href="./page/MA_KLINE.html">MA</a>
+                    <a href="./page/MSFT_KLINE.html">MSFT</a>
+                    <a href="./page/NFLX_KLINE.html">NFLX</a>
+                    <a href="./page/NVDA_KLINE.html">NVDA</a>
+                    <a href="./page/PEP_KLINE.html">PEP</a>
+                    <a href="./page/PFE_KLINE.html">PFE</a>
+                    <a href="./page/TSLA_KLINE.html">TSLA</a>
+                    <a href="./page/WMT_KLINE.html">WMT</a>
+                    <a href="index.html">待更新</a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="search.js"></script>
+    <script src="../main.js"></script>
+</body>
+
+</html>

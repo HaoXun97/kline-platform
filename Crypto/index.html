@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="dark-theme">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加密貨幣走勢圖</title>
+    <link rel="stylesheet" href="../PageStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- 返回頂部按鈕 -->
+    <button id="back-to-top" class="back-to-top" aria-label="返回頂部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="container">
+        <nav class="top-nav">
+            <a href="../" class="back-button">
+                <i class="fas fa-arrow-left"></i> 返回
+            </a>
+        </nav>
+
+        <div class="title">
+            <i class="fas fa-chart-line title-icon pulse"></i>
+            <h1>加密貨幣走勢圖</h1>
+            <p class="subtitle">KKKKKK線圖</p>
+        </div>
+
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="cryptoSearch" placeholder="請輸入幣種名稱或代號..." autocomplete="off">
+            <div class="search-hint">例如：BTC、ETH、SOL、ADA、以太坊、比特幣...</div>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+
+        <!-- 新增說明區塊 -->
+        <div class="info-section">
+            <h2><i class="fas fa-info-circle"></i> 使用說明</h2>
+
+            <section class="info-block">
+                <h3><i class="fas fa-tools"></i> 關於本工具</h3>
+                <p>這是一個簡單的加密貨幣走勢圖查詢工具，提供歷史的加密貨幣K線圖資訊，協助您進行分析。</p>
+            </section>
+
+            <section class="info-block">
+                <h3><i class="fas fa-question-circle"></i> 如何使用</h3>
+                <ul>
+                    <li>在搜尋框輸入幣種代號或名稱</li>
+                    <li>從下拉選單中選擇想要查看的幣種</li>
+                    <li>查看K線圖及相關技術指標</li>
+                </ul>
+            </section>
+
+            <section class="info-block">
+                <h3><i class="fas fa-list"></i> 可用頁面</h3>
+                <div class="stock-grid">
+                    <a href=" ./page/AAVEUSD_KLINE.html">AAVE</a>
+                    <a href="./page/ADAUSD_KLINE.html">ADA</a>
+                    <a href="./page/ALGOUSD_KLINE.html">ALGO</a>
+                    <a href="./page/APTOUSD_KLINE.html">APTO</a>
+                    <a href="./page/ARBIUSD_KLINE.html">ARBI</a>
+                    <a href="./page/ATOMUSD_KLINE.html">ATOM</a>
+                    <a href="./page/AVAXUSD_KLINE.html">AVAX</a>
+                    <a href="./page/BCHUSD_KLINE.html">BCH</a>
+                    <a href="./page/BGBUSD_KLINE.html">BGB</a>
+                    <a href="./page/BITDUSD_KLINE.html">BITD</a>
+                    <a href="./page/BNBUSD_KLINE.html">BNB</a>
+                    <a href="./page/BTCUSD_KLINE.html">BTC</a>
+                    <a href="./page/CBBTCCUSD_KLINE.html">CBBTCC</a>
+                    <a href="./page/CROUSD_KLINE.html">CRO</a>
+                    <a href="./page/DAIUSD_KLINE.html">DAI</a>
+                    <a href="./page/DEXEUSD_KLINE.html">DEXE</a>
+                    <a href="./page/DOGEUSD_KLINE.html">DOGE</a>
+                    <a href="./page/DOTUSD_KLINE.html">DOT</a>
+                    <a href="./page/EDLCUSD_KLINE.html">EDLC</a>
+                    <a href="./page/ENAUSD_KLINE.html">ENA</a>
+                    <a href="./page/EOSUSD_KLINE.html">EOS</a>
+                    <a href="./page/ETCUSD_KLINE.html">ETC</a>
+                    <a href="./page/ETHUSD_KLINE.html">ETH</a>
+                    <a href="./page/FDUSD_KLINE.html">FD</a>
+                    <a href="./page/FETUSD_KLINE.html">FET</a>
+                    <a href="./page/FILUSD_KLINE.html">FIL</a>
+                    <a href="./page/FTNUSD_KLINE.html">FTN</a>
+                    <a href="./page/GTUSD_KLINE.html">GT</a>
+                    <a href="./page/HBARUSD_KLINE.html">HBAR</a>
+                    <a href="./page/HTXUSD_KLINE.html">HTX</a>
+                    <a href="./page/HYPEHUSD_KLINE.html">HYPEH</a>
+                    <a href="./page/ICPUSD_KLINE.html">ICP</a>
+                    <a href="./page/IPUSD_KLINE.html">IP</a>
+                    <a href="./page/JITOSOLUSD_KLINE.html">JITOSOL</a>
+                    <a href="./page/JSMUSD_KLINE.html">JSM</a>
+                    <a href="./page/JUPIUSD_KLINE.html">JUPI</a>
+                    <a href="./page/KASUSD_KLINE.html">KAS</a>
+                    <a href="./page/KCSUSD_KLINE.html">KCS</a>
+                    <a href="./page/L1XUSD_KLINE.html">L1X</a>
+                    <a href="./page/LBTCLUSD_KLINE.html">LBTCL</a>
+                    <a href="./page/LEMXLUSD_KLINE.html">LEMXL</a>
+                    <a href="./page/LEOUSD_KLINE.html">LEO</a>
+                    <a href="./page/LINKUSD_KLINE.html">LINK</a>
+                    <a href="./page/LIONLUSD_KLINE.html">LIONL</a>
+                    <a href="./page/LTCUSD_KLINE.html">LTC</a>
+                    <a href="./page/MKRUSD_KLINE.html">MKR</a>
+                    <a href="./page/MNTUSD_KLINE.html">MNT</a>
+                    <a href="./page/MRSMUSD_KLINE.html">MRSM</a>
+                    <a href="./page/NEARUSD_KLINE.html">NEAR</a>
+                    <a href="./page/NXQUSD_KLINE.html">NXQ</a>
+                    <a href="./page/OKBUSD_KLINE.html">OKB</a>
+                    <a href="./page/OMUSD_KLINE.html">OM</a>
+                    <a href="./page/ONDOUSD_KLINE.html">ONDO</a>
+                    <a href="./page/OPUSD_KLINE.html">OP</a>
+                    <a href="./page/PEPEUSD_KLINE.html">PEPE</a>
+                    <a href="./page/PI3USD_KLINE.html">PI3</a>
+                    <a href="./page/POLYGUSD_KLINE.html">POLYG</a>
+                    <a href="./page/RENDERUSD_KLINE.html">RENDER</a>
+                    <a href="./page/RSETHUSD_KLINE.html">RSETH</a>
+                    <a href="./page/RYOTUSD_KLINE.html">RYOT</a>
+                    <a href="./page/SDAIUSD_KLINE.html">SDAI</a>
+                    <a href="./page/SHIBUSD_KLINE.html">SHIB</a>
+                    <a href="./page/SKY2USD_KLINE.html">SKY2</a>
+                    <a href="./page/SMART2USD_KLINE.html">SMART2</a>
+                    <a href="./page/SOLUSD_KLINE.html">SOL</a>
+                    <a href="./page/SONIUSD_KLINE.html">SONI</a>
+                    <a href="./page/STETHUSD_KLINE.html">STETH</a>
+                    <a href="./page/SUIUSD_KLINE.html">SUI</a>
+                    <a href="./page/SEUSD_KLINE.html">SE</a>
+                    <a href="./page/TAOBUSD_KLINE.html">TAOB</a>
+                    <a href="./page/TIA2USD_KLINE.html">TIA2</a>
+                    <a href="./page/TLCUSD_KLINE.html">TLC</a>
+                    <a href="./page/TONUSD_KLINE.html">TON</a>
+                    <a href="./page/TRUMPOFUSD_KLINE.html">TRUMPOF</a>
+                    <a href="./page/TRXUSD_KLINE.html">TRX</a>
+                    <a href="./page/UNIUSD_KLINE.html">UNI</a>
+                    <a href="./page/CUSD_KLINE.html">C</a>
+                    <a href="./page/EEUSD_KLINE.html">EE</a>
+                    <a href="./page/S2USD_KLINE.html">S2</a>
+                    <a href="./page/TUSD_KLINE.html">T</a>
+                    <a href="./page/VETUSD_KLINE.html">VET</a>
+                    <a href="./page/WEBTHUSD_KLINE.html">WEBTH</a>
+                    <a href="./page/WBTCUSD_KLINE.html">WBTC</a>
+                    <a href="./page/WBTUSD_KLINE.html">WBT</a>
+                    <a href="./page/WEETHUSD_KLINE.html">WEETH</a>
+                    <a href="./page/WETHUSD_KLINE.html">WETH</a>
+                    <a href="./page/WSTETHUSD_KLINE.html">WSTETH</a>
+                    <a href="./page/XDCUSD_KLINE.html">XDC</a>
+                    <a href="./page/XLMUSD_KLINE.html">XLM</a>
+                    <a href="./page/XMRUSD_KLINE.html">XMR</a>
+                    <a href="./page/XRPUSD_KLINE.html">XRP</a>
+                    <a href="./page/ZETRIXUSD_KLINE.html">ZETRIX</a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="search.js"></script>
+    <script src="../main.js"></script>
+</body>
+
+</html>
