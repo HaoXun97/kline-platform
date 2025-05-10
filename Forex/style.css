@@ -118,12 +118,6 @@ body {
   letter-spacing: 0.5px;
 }
 
-.page-container {
-  width: 100%;
-  min-height: 100vh;
-  padding: 1rem;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -145,24 +139,6 @@ body {
 
 .back-button:hover {
   background: var(--primary-color);
-}
-
-.chart-container {
-  background: var(--gh-card);
-  border-radius: 8px;
-  padding: 1rem;
-  height: calc(100vh - 120px);
-}
-
-#chart {
-  width: 100%;
-  height: 100%;
-}
-
-.search-section {
-  max-width: 600px;
-  margin: 2rem auto;
-  padding: 0 1rem;
 }
 
 .search-container {

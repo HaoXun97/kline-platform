@@ -25,51 +25,145 @@ body {
   flex-direction: column;
 }
 
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+/* 返回頂部按鈕樣式 */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+}
+
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start; /* 改為從上方開始排列 */
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem; /* 加入底部間距 */
 }
 
 .title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
   animation: fadeInDown 0.8s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.title-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title-icon {
-  font-size: 3rem;
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
   background: linear-gradient(45deg, var(--primary-color), #4caf50);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 1rem;
+  display: block;
+  position: relative;
+  filter: drop-shadow(0 0 8px rgba(46, 164, 79, 0.3));
+}
+
+.title-icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(46, 164, 79, 0.2) 0%,
+    transparent 70%
+  );
+  transform: translate(-50%, -50%);
+  filter: blur(10px);
+  z-index: -1;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    opacity: 0.5;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.5);
+  }
 }
 
 .title h1 {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   letter-spacing: 1px;
   margin: 0;
 }
 
 .description {
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #8b949e;
-  margin-bottom: 3rem;
-  font-size: 1.2rem;
   animation: fadeIn 1s ease;
 }
 
 .button-container {
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 2.5rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  padding: 1rem;
   animation: fadeInUp 0.8s ease;
   align-items: center; /* 確保按鈕置中 */
 }
 
 .gh-button {
+  flex: 1 1 calc(50% - 2.5rem);
+  min-width: 260px;
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: var(--gradient-bg);
   border: 1px solid var(--border-color);
   padding: 2rem;
@@ -78,16 +172,34 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   color: var(--text-color);
-  flex: 0 1 300px;
-  width: 300px; /* 增加按鈕寬度 */
-  min-width: 280px; /* 設定最小寬度 */
-  max-width: 90%; /* 在手機上自適應 */
+  position: relative;
+  overflow: hidden;
 }
 
 .gh-button:hover {
   transform: translateY(-8px) scale(1.02);
   border-color: var(--primary-color);
   box-shadow: 0 8px 16px rgba(46, 164, 79, 0.2);
+}
+
+.gh-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(46, 164, 79, 0.1),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.gh-button:hover::before {
+  left: 100%;
 }
 
 .crypto-icon {
@@ -118,12 +230,6 @@ body {
   letter-spacing: 0.5px;
 }
 
-.page-container {
-  width: 100%;
-  min-height: 100vh;
-  padding: 1rem;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -145,24 +251,6 @@ body {
 
 .back-button:hover {
   background: var(--primary-color);
-}
-
-.chart-container {
-  background: var(--gh-card);
-  border-radius: 8px;
-  padding: 1rem;
-  height: calc(100vh - 120px);
-}
-
-#chart {
-  width: 100%;
-  height: 100%;
-}
-
-.search-section {
-  max-width: 600px;
-  margin: 2rem auto;
-  padding: 0 1rem;
 }
 
 .search-container {
@@ -220,6 +308,50 @@ body {
   border-bottom: none;
 }
 
+/* 文字動畫樣式 */
+.scramble-text {
+  font-family: "Segoe UI";
+  display: inline-block;
+  transition: none; /* 移除過渡效果 */
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  font-size: 2.8rem; /* 固定字體大小 */
+  line-height: 1.2; /* 固定行高 */
+  min-width: 8em; /* 設定最小寬度 */
+  text-align: center;
+  height: 1.2em; /* 固定高度 */
+  overflow: hidden; /* 防止內容溢出 */
+}
+
+/* 頁尾樣式 */
+.footer {
+  padding: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  width: 100%;
+  text-align: center;
+  color: var(--text-color);
+  opacity: 0.8;
+  margin-top: 2rem; /* 改為固定上方間距 */
+}
+
+.social-links {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-link {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: var(--primary-color);
+}
+
 @keyframes fadeInDown {
   from {
     opacity: 0;
@@ -251,24 +383,60 @@ body {
   }
 }
 
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @media (max-width: 768px) {
   .container {
-    padding: 2rem 1rem;
+    padding: 1rem;
+  }
+
+  main {
+    margin-bottom: 1rem;
+  }
+
+  .footer {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
+  .title {
+    margin-bottom: 2rem;
+    padding-top: 1rem;
   }
 
   .title h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+  }
+
+  .title-icon {
+    font-size: 3rem;
+  }
+
+  .description {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
   }
 
   .button-container {
-    flex-direction: column;
-    align-items: center;
+    gap: 1.5rem;
   }
 
   .gh-button {
-    width: 100%;
-    max-width: 300px;
-    padding: 1.5rem;
-    max-height: 200px;
+    flex: 1 1 100%;
+    height: 180px;
   }
 }

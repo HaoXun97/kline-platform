@@ -7,48 +7,68 @@
     <title>主選單</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
 </head>
 
 <body>
+
+    <!-- 返回頂部按鈕 -->
+    <button id="back-to-top" class="back-to-top" aria-label="返回頂部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <div class="container">
-        <div class="title">
-            <i class="fas fa-chart-line title-icon"></i>
-            <h1>金融走勢分析</h1>
-        </div>
-        <div class="description">
-            <p>選擇您想要查看的市場行情</p>
-        </div>
-        <div class="button-container">
-            <a href="./TW-Stocks/" class="gh-button">
-                <i class="fas fa-building crypto-icon"></i>
-                <span class="button-content">
-                    <span class="crypto-name">台股</span>
-                    <span class="crypto-symbol">Taiwan Stock Market</span>
-                </span>
-            </a>
-            <a href="./US-Stocks/" class="gh-button">
-                <i class="fas fa-landmark crypto-icon"></i>
-                <span class="button-content">
-                    <span class="crypto-name">美股</span>
-                    <span class="crypto-symbol">US Stock Market</span>
-                </span>
-            </a>
-            <a href="./Crypto/" class="gh-button">
-                <i class="fas fa-coins crypto-icon"></i>
-                <span class="button-content">
-                    <span class="crypto-name">加密貨幣</span>
-                    <span class="crypto-symbol">Cryptocurrency</span>
-                </span>
-            </a>
-            <a href="./Forex/" class="gh-button">
-                <i class="fas fa-dollar-sign crypto-icon"></i>
-                <span class="button-content">
-                    <span class="crypto-name">外匯</span>
-                    <span class="crypto-symbol">Foreign Exchange</span>
-                </span>
-            </a>
-        </div>
+        <main>
+            <div class="title">
+                <div class="title-icon-container">
+                    <i class="fas fa-chart-line title-icon pulse"></i>
+                </div>
+                <h1 class="scramble-text">金融走勢分析</h1>
+            </div>
+            <div class="description">
+                <p>選擇您想要查看的市場行情</p>
+            </div>
+            <div class="button-container">
+                <a href="./TW-Stocks/" class="gh-button">
+                    <i class="fas fa-building crypto-icon"></i>
+                    <span class="button-content">
+                        <span class="crypto-name">台股</span>
+                        <span class="crypto-symbol">Taiwan Stock Market</span>
+                    </span>
+                </a>
+                <a href="./US-Stocks/" class="gh-button">
+                    <i class="fas fa-landmark crypto-icon"></i>
+                    <span class="button-content">
+                        <span class="crypto-name">美股</span>
+                        <span class="crypto-symbol">US Stock Market</span>
+                    </span>
+                </a>
+                <a href="./Crypto/" class="gh-button">
+                    <i class="fas fa-coins crypto-icon"></i>
+                    <span class="button-content">
+                        <span class="crypto-name">加密貨幣</span>
+                        <span class="crypto-symbol">Cryptocurrency</span>
+                    </span>
+                </a>
+                <a href="./Forex/" class="gh-button">
+                    <i class="fas fa-dollar-sign crypto-icon"></i>
+                    <span class="button-content">
+                        <span class="crypto-name">外匯</span>
+                        <span class="crypto-symbol">Foreign Exchange</span>
+                    </span>
+                </a>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="social-links">
+                <a href="https://github.com/HaoXun97/kline-platform" class="social-link"><i
+                        class="fab fa-github"></i></a>
+            </div>
+            <p>© 2025 金融走勢智慧分析專題</p>
+        </footer>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
