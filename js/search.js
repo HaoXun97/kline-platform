@@ -103,8 +103,8 @@ class SearchModule {
       notice.innerHTML = `
         <p>
           找到 <span style="color: var(--primary-color); font-weight: 600;">${results.length}</span> 個符合的結果
-          <span style="opacity: 0.8; margin-left: 4px;">
-            · 僅顯示前 50 筆
+          <span style="opacity: 0.8; margin-left: 0px;">
+            | 僅顯示前 50 筆
           </span>
         </p>
       `;
