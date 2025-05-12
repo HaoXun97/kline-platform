@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>加密貨幣走勢圖</title>
-    <link rel="stylesheet" href="../PageStyle.css">
+    <link rel="stylesheet" href="../css/PageStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
@@ -153,8 +153,16 @@
             </section>
         </div>
     </div>
-    <script src="search.js"></script>
-    <script src="../main.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            new SearchModule({
+                inputId: "cryptoSearch",
+                dataUrl: "cryptoData.json"
+            });
+        });
+    </script>
 </body>
 
 </html>
