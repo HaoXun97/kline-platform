@@ -31,7 +31,7 @@
 - 2330 台積電
 - 2881 富邦金
 - 5522 遠雄
-  等熱門股票
+- 等熱門股票
 
 ### 美國股票市場
 
@@ -42,7 +42,7 @@
 - GOOGL (Google)
 - MSFT (Microsoft)
 - TSLA (Tesla)
-  等熱門股票
+- 等熱門股票
 
 ### 加密貨幣市場
 
@@ -52,4 +52,4 @@
 - ETH (Ethereum)
 - BNB (Binance Coin)
 - SOL (Solana)
-  等各種加密貨幣
+- 等各種加密貨幣
