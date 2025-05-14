@@ -313,7 +313,7 @@ main {
   font-family: "Segoe UI";
   display: inline-block;
   transition: none; /* 移除過渡效果 */
-  user-select: none;
+  /* user-select: none; */
   position: relative;
   white-space: nowrap;
   font-size: 2.8rem; /* 固定字體大小 */

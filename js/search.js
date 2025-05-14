@@ -103,7 +103,7 @@ class SearchModule {
       notice.innerHTML = `
         <p>
           找到 <span style="color: var(--primary-color); font-weight: 600;">${results.length}</span> 個符合的結果
-          <span style="opacity: 0.8; margin-left: 0px;">
+          <span style="opacity: 0.5; margin-left: 0px;">
             | 僅顯示前 50 筆
           </span>
         </p>
@@ -119,9 +119,27 @@ class SearchModule {
       const categoryName =
         this.categories[result.category] || result.category || "其他";
 
+      // 根據路徑判斷類型並設定對應圖示
+      let icon = "fa-chart-line"; // 預設圖示
+      if (
+        result.category.includes("上市") ||
+        result.category.includes("上櫃")
+      ) {
+        icon = "fa-building"; // 台股圖示
+      } else if (
+        result.category.includes("AMEX") ||
+        result.category.includes("CBOE") ||
+        result.category.includes("NASDAQ") ||
+        result.category.includes("NYSE")
+      ) {
+        icon = "fa-landmark"; // 美股圖示
+      } else if (result.category.includes("加密貨幣")) {
+        icon = "fa-coins"; // 加密貨幣圖示
+      }
+
       li.innerHTML = `
       <a href="${result.path}">
-        <i class="fas fa-coins"></i>
+        <i class="fas ${icon}"></i>
         <span>${result.title}</span>
         <span class="category-tag">${categoryName}</span>
       </a>`;
