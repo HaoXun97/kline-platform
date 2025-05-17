@@ -72,6 +72,9 @@ class SearchModule {
       return titleLower.includes(searchTerm) || keywordMatch;
     });
 
+    // 依照標題字母排序
+    filteredResults.sort((a, b) => a.title.localeCompare(b.title, "zh-TW"));
+
     this.displayResults(filteredResults);
   }
 
