@@ -2,554 +2,570 @@
   "cryptos": [
     {
       "title": "去中心化借貸協議 (AAVE)",
-      "path": "./page/AAVEUSD_KLINE.html",
-      "keywords": ["去中心化借貸協議", "Aave", "AAVE"],
+      "path": "./page/AAVE_KLINE.html",
+      "keywords": ["去中心化借貸協議", "AAVE", "Aave"],
       "category": "加密貨幣"
     },
     {
       "title": "艾達幣 (ADA)",
-      "path": "./page/ADAUSD_KLINE.html",
-      "keywords": ["ADA", "艾達幣", "Cardano"],
+      "path": "./page/ADA_KLINE.html",
+      "keywords": ["ADA", "Cardano", "艾達幣"],
       "category": "加密貨幣"
     },
     {
       "title": "算法幣 (ALGO)",
-      "path": "./page/ALGOUSD_KLINE.html",
+      "path": "./page/ALGO_KLINE.html",
       "keywords": ["Algorand", "算法幣", "ALGO"],
       "category": "加密貨幣"
     },
     {
       "title": "APTO (APTO)",
-      "path": "./page/APTOUSD_KLINE.html",
+      "path": "./page/APTO_KLINE.html",
       "keywords": ["APTO"],
       "category": "加密貨幣"
     },
     {
-      "title": "Arbipad (ARBI)",
-      "path": "./page/ARBIUSD_KLINE.html",
-      "keywords": ["ARBI"],
+      "title": "ArbiPad (ARBI)",
+      "path": "./page/ARBI_KLINE.html",
+      "keywords": ["ARBI", "ArbiPad"],
       "category": "加密貨幣"
     },
     {
       "title": "科斯魔斯幣 (ATOM)",
-      "path": "./page/ATOMUSD_KLINE.html",
+      "path": "./page/ATOM_KLINE.html",
       "keywords": ["Cosmos", "ATOM", "科斯魔斯幣"],
       "category": "加密貨幣"
     },
     {
       "title": "雪崩幣 (AVAX)",
-      "path": "./page/AVAXUSD_KLINE.html",
-      "keywords": ["雪崩幣", "Avalanche", "AVAX"],
+      "path": "./page/AVAX_KLINE.html",
+      "keywords": ["AVAX", "雪崩幣", "Avalanche"],
       "category": "加密貨幣"
     },
     {
       "title": "比特幣現金 (BCH)",
-      "path": "./page/BCHUSD_KLINE.html",
-      "keywords": ["比特幣現金", "BCH", "Bitcoin Cash"],
+      "path": "./page/BCH_KLINE.html",
+      "keywords": ["Bitcoin Cash", "BCH", "比特幣現金"],
       "category": "加密貨幣"
     },
     {
-      "title": "Bitget token (BGB)",
-      "path": "./page/BGBUSD_KLINE.html",
-      "keywords": ["BGB"],
+      "title": "Bitget Token (BGB)",
+      "path": "./page/BGB_KLINE.html",
+      "keywords": ["Bitget Token", "BGB"],
       "category": "加密貨幣"
     },
     {
       "title": "BITD (BITD)",
-      "path": "./page/BITDUSD_KLINE.html",
+      "path": "./page/BITD_KLINE.html",
       "keywords": ["BITD"],
       "category": "加密貨幣"
     },
     {
       "title": "幣安幣 (BNB)",
-      "path": "./page/BNBUSD_KLINE.html",
-      "keywords": ["BNB", "Binance Coin", "幣安幣"],
+      "path": "./page/BNB_KLINE.html",
+      "keywords": [
+        "BNB",
+        "Bifrost Bridged BNB (Bifrost)",
+        "幣安幣",
+        "Binance Coin"
+      ],
       "category": "加密貨幣"
     },
     {
       "title": "比特幣 (BTC)",
-      "path": "./page/BTCUSD_KLINE.html",
-      "keywords": ["比特幣", "BTC", "Bitcoin"],
+      "path": "./page/BTC_KLINE.html",
+      "keywords": ["Bitcoin", "BTC", "比特幣"],
       "category": "加密貨幣"
     },
     {
       "title": "CBBTCC (CBBTCC)",
-      "path": "./page/CBBTCCUSD_KLINE.html",
+      "path": "./page/CBBTCC_KLINE.html",
       "keywords": ["CBBTCC"],
       "category": "加密貨幣"
     },
     {
       "title": "加密.com幣 (CRO)",
-      "path": "./page/CROUSD_KLINE.html",
-      "keywords": ["CRO", "加密.com幣", "Crypto.com Coin"],
+      "path": "./page/CRO_KLINE.html",
+      "keywords": [
+        "CRO",
+        "加密.com幣",
+        "Cronos zkEVM Bridged CRO (Cronos zkEVM)",
+        "Crypto.com Coin"
+      ],
       "category": "加密貨幣"
     },
     {
       "title": "Dai (DAI)",
-      "path": "./page/DAIUSD_KLINE.html",
-      "keywords": ["DAI"],
+      "path": "./page/DAI_KLINE.html",
+      "keywords": ["Dai", "DAI"],
       "category": "加密貨幣"
     },
     {
       "title": "DeXe (DEXE)",
-      "path": "./page/DEXEUSD_KLINE.html",
-      "keywords": ["DEXE"],
+      "path": "./page/DEXE_KLINE.html",
+      "keywords": ["DeXe", "DEXE"],
       "category": "加密貨幣"
     },
     {
       "title": "狗狗幣 (DOGE)",
-      "path": "./page/DOGEUSD_KLINE.html",
+      "path": "./page/DOGE_KLINE.html",
       "keywords": ["狗狗幣", "DOGE", "Dogecoin"],
       "category": "加密貨幣"
     },
     {
       "title": "波卡幣 (DOT)",
-      "path": "./page/DOTUSD_KLINE.html",
-      "keywords": ["DOT", "波卡幣", "Polkadot"],
+      "path": "./page/DOT_KLINE.html",
+      "keywords": ["Polkadot", "波卡幣", "DOT"],
       "category": "加密貨幣"
     },
     {
       "title": "Edelcoin (EDLC)",
-      "path": "./page/EDLCUSD_KLINE.html",
-      "keywords": ["EDLC"],
+      "path": "./page/EDLC_KLINE.html",
+      "keywords": ["Edelcoin", "EDLC"],
       "category": "加密貨幣"
     },
     {
       "title": "Ethena (ENA)",
-      "path": "./page/ENAUSD_KLINE.html",
-      "keywords": ["ENA"],
+      "path": "./page/ENA_KLINE.html",
+      "keywords": ["Ethena", "ENA"],
       "category": "加密貨幣"
     },
     {
       "title": "EOS (EOS)",
-      "path": "./page/EOSUSD_KLINE.html",
+      "path": "./page/EOS_KLINE.html",
       "keywords": ["EOS"],
       "category": "加密貨幣"
     },
     {
       "title": "以太坊經典 (ETC)",
-      "path": "./page/ETCUSD_KLINE.html",
+      "path": "./page/ETC_KLINE.html",
       "keywords": ["ETC", "Ethereum Classic", "以太坊經典"],
       "category": "加密貨幣"
     },
     {
       "title": "以太坊 (ETH)",
-      "path": "./page/ETHUSD_KLINE.html",
-      "keywords": ["以太坊", "Ethereum", "ETH", "Ether"],
+      "path": "./page/ETH_KLINE.html",
+      "keywords": [
+        "Bifrost Bridged ETH (Bifrost)",
+        "以太坊",
+        "ETH",
+        "Ethereum",
+        "Ether"
+      ],
       "category": "加密貨幣"
     },
     {
-      "title": "FD (FD)",
-      "path": "./page/FDUSDUSD_KLINE.html",
-      "keywords": ["FD"],
+      "title": "First Digital USD (FDUSD)",
+      "path": "./page/FDUSD_KLINE.html",
+      "keywords": ["FDUSD", "First Digital USD"],
       "category": "加密貨幣"
     },
     {
       "title": "Artificial Superintelligence Alliance (FET)",
-      "path": "./page/FETUSD_KLINE.html",
-      "keywords": ["FET"],
+      "path": "./page/FET_KLINE.html",
+      "keywords": ["FET", "Artificial Superintelligence Alliance"],
       "category": "加密貨幣"
     },
     {
       "title": "文件幣 (FIL)",
-      "path": "./page/FILUSD_KLINE.html",
-      "keywords": ["FIL", "Filecoin", "文件幣"],
+      "path": "./page/FIL_KLINE.html",
+      "keywords": ["Filecoin", "文件幣", "FIL"],
       "category": "加密貨幣"
     },
     {
       "title": "Fasttoken (FTN)",
-      "path": "./page/FTNUSD_KLINE.html",
-      "keywords": ["FTN"],
+      "path": "./page/FTN_KLINE.html",
+      "keywords": ["FTN", "Fasttoken"],
       "category": "加密貨幣"
     },
     {
       "title": "Gatechain Token (GT)",
-      "path": "./page/GTUSD_KLINE.html",
-      "keywords": ["GT"],
+      "path": "./page/GT_KLINE.html",
+      "keywords": ["Gatechain Token", "GT"],
       "category": "加密貨幣"
     },
     {
       "title": "Hedera Hashgraph (HBAR)",
-      "path": "./page/HBARUSD_KLINE.html",
-      "keywords": ["HBAR"],
+      "path": "./page/HBAR_KLINE.html",
+      "keywords": ["HBAR", "Hedera Hashgraph"],
       "category": "加密貨幣"
     },
     {
       "title": "HTX (HTX)",
-      "path": "./page/HTXUSD_KLINE.html",
+      "path": "./page/HTX_KLINE.html",
       "keywords": ["HTX"],
       "category": "加密貨幣"
     },
     {
       "title": "HYPEH (HYPEH)",
-      "path": "./page/HYPEHUSD_KLINE.html",
+      "path": "./page/HYPEH_KLINE.html",
       "keywords": ["HYPEH"],
       "category": "加密貨幣"
     },
     {
       "title": "互聯網計算機 (ICP)",
-      "path": "./page/ICPUSD_KLINE.html",
-      "keywords": ["Internet Computer", "互聯網計算機", "ICP"],
+      "path": "./page/ICP_KLINE.html",
+      "keywords": ["互聯網計算機", "ICP", "Internet Computer"],
       "category": "加密貨幣"
     },
     {
       "title": "Story (IP)",
-      "path": "./page/IPUSD_KLINE.html",
-      "keywords": ["IP"],
+      "path": "./page/IP_KLINE.html",
+      "keywords": ["Story", "IP"],
       "category": "加密貨幣"
     },
     {
       "title": "Jito Staked SOL (JITOSOL)",
-      "path": "./page/JITOSOLUSD_KLINE.html",
-      "keywords": ["JITOSOL"],
+      "path": "./page/JITOSOL_KLINE.html",
+      "keywords": ["Jito Staked SOL", "JITOSOL"],
       "category": "加密貨幣"
     },
     {
       "title": "Joseon Mun (JSM)",
-      "path": "./page/JSMUSD_KLINE.html",
-      "keywords": ["JSM"],
+      "path": "./page/JSM_KLINE.html",
+      "keywords": ["Joseon Mun", "JSM"],
       "category": "加密貨幣"
     },
     {
       "title": "Jupiter (JUPI)",
-      "path": "./page/JUPIUSD_KLINE.html",
-      "keywords": ["JUPI"],
+      "path": "./page/JUPI_KLINE.html",
+      "keywords": ["Jupiter", "JUPI"],
       "category": "加密貨幣"
     },
     {
       "title": "Kaspa (KAS)",
-      "path": "./page/KASUSD_KLINE.html",
-      "keywords": ["KAS"],
+      "path": "./page/KAS_KLINE.html",
+      "keywords": ["Kaspa", "KAS"],
       "category": "加密貨幣"
     },
     {
       "title": "KuCoin Token (KCS)",
-      "path": "./page/KCSUSD_KLINE.html",
-      "keywords": ["KCS"],
+      "path": "./page/KCS_KLINE.html",
+      "keywords": ["KCS", "KuCoin Token"],
       "category": "加密貨幣"
     },
     {
       "title": "Layer One X (L1X)",
-      "path": "./page/L1XUSD_KLINE.html",
-      "keywords": ["L1X"],
+      "path": "./page/L1X_KLINE.html",
+      "keywords": ["Layer One X", "L1X"],
       "category": "加密貨幣"
     },
     {
       "title": "LBTCL (LBTCL)",
-      "path": "./page/LBTCLUSD_KLINE.html",
+      "path": "./page/LBTCL_KLINE.html",
       "keywords": ["LBTCL"],
       "category": "加密貨幣"
     },
     {
       "title": "LEMXL (LEMXL)",
-      "path": "./page/LEMXLUSD_KLINE.html",
+      "path": "./page/LEMXL_KLINE.html",
       "keywords": ["LEMXL"],
       "category": "加密貨幣"
     },
     {
       "title": "LEO Token (LEO)",
-      "path": "./page/LEOUSD_KLINE.html",
-      "keywords": ["LEO"],
+      "path": "./page/LEO_KLINE.html",
+      "keywords": ["LEO Token", "LEO"],
       "category": "加密貨幣"
     },
     {
       "title": "鏈結幣 (LINK)",
-      "path": "./page/LINKUSD_KLINE.html",
-      "keywords": ["Chainlink", "LINK", "鏈結幣"],
+      "path": "./page/LINK_KLINE.html",
+      "keywords": ["LINK", "鏈結幣", "Chainlink"],
       "category": "加密貨幣"
     },
     {
       "title": "LIONL (LIONL)",
-      "path": "./page/LIONLUSD_KLINE.html",
+      "path": "./page/LIONL_KLINE.html",
       "keywords": ["LIONL"],
       "category": "加密貨幣"
     },
     {
       "title": "萊特幣 (LTC)",
-      "path": "./page/LTCUSD_KLINE.html",
-      "keywords": ["萊特幣", "Litecoin", "LTC"],
+      "path": "./page/LTC_KLINE.html",
+      "keywords": ["萊特幣", "LTC", "Litecoin"],
       "category": "加密貨幣"
     },
     {
       "title": "Maker (MKR)",
-      "path": "./page/MKRUSD_KLINE.html",
-      "keywords": ["MKR"],
+      "path": "./page/MKR_KLINE.html",
+      "keywords": ["MKR", "Maker"],
       "category": "加密貨幣"
     },
     {
       "title": "MNT (MNT)",
-      "path": "./page/MNTUSD_KLINE.html",
+      "path": "./page/MNT_KLINE.html",
       "keywords": ["MNT"],
       "category": "加密貨幣"
     },
     {
       "title": "MRSM (MRSM)",
-      "path": "./page/MRSMUSD_KLINE.html",
+      "path": "./page/MRSM_KLINE.html",
       "keywords": ["MRSM"],
       "category": "加密貨幣"
     },
     {
       "title": "近協議 (NEAR)",
-      "path": "./page/NEARUSD_KLINE.html",
+      "path": "./page/NEAR_KLINE.html",
       "keywords": ["NEAR Protocol", "近協議", "NEAR"],
       "category": "加密貨幣"
     },
     {
       "title": "NexQloud (NXQ)",
-      "path": "./page/NXQUSD_KLINE.html",
-      "keywords": ["NXQ"],
+      "path": "./page/NXQ_KLINE.html",
+      "keywords": ["NexQloud", "NXQ"],
       "category": "加密貨幣"
     },
     {
       "title": "OKB (OKB)",
-      "path": "./page/OKBUSD_KLINE.html",
+      "path": "./page/OKB_KLINE.html",
       "keywords": ["OKB"],
       "category": "加密貨幣"
     },
     {
       "title": "MANTRA (OM)",
-      "path": "./page/OMUSD_KLINE.html",
-      "keywords": ["OM"],
+      "path": "./page/OM_KLINE.html",
+      "keywords": ["OM", "MANTRA"],
       "category": "加密貨幣"
     },
     {
       "title": "Ondo (ONDO)",
-      "path": "./page/ONDOUSD_KLINE.html",
-      "keywords": ["ONDO"],
+      "path": "./page/ONDO_KLINE.html",
+      "keywords": ["Ondo", "ONDO"],
       "category": "加密貨幣"
     },
     {
       "title": "樂觀幣 (OP)",
-      "path": "./page/OPUSD_KLINE.html",
+      "path": "./page/OP_KLINE.html",
       "keywords": ["OP", "Optimism", "樂觀幣"],
       "category": "加密貨幣"
     },
     {
       "title": "Pepe (PEPE)",
-      "path": "./page/PEPEUSD_KLINE.html",
-      "keywords": ["PEPE"],
+      "path": "./page/PEPE_KLINE.html",
+      "keywords": ["PEPE", "Pepe"],
       "category": "加密貨幣"
     },
     {
       "title": "PI3 (PI3)",
-      "path": "./page/PI3USD_KLINE.html",
+      "path": "./page/PI3_KLINE.html",
       "keywords": ["PI3"],
       "category": "加密貨幣"
     },
     {
       "title": "POLYG (POLYG)",
-      "path": "./page/POLYGUSD_KLINE.html",
+      "path": "./page/POLYG_KLINE.html",
       "keywords": ["POLYG"],
       "category": "加密貨幣"
     },
     {
       "title": "Render Network (RENDER)",
-      "path": "./page/RENDERUSD_KLINE.html",
-      "keywords": ["RENDER"],
+      "path": "./page/RENDER_KLINE.html",
+      "keywords": ["Render Network", "RENDER"],
       "category": "加密貨幣"
     },
     {
       "title": "Kelp DAO Restaked ETH (RSETH)",
-      "path": "./page/RSETHUSD_KLINE.html",
-      "keywords": ["RSETH"],
+      "path": "./page/RSETH_KLINE.html",
+      "keywords": ["Kelp DAO Restaked ETH", "RSETH"],
       "category": "加密貨幣"
     },
     {
       "title": "RYOT (RYOT)",
-      "path": "./page/RYOTUSD_KLINE.html",
+      "path": "./page/RYOT_KLINE.html",
       "keywords": ["RYOT"],
       "category": "加密貨幣"
     },
     {
       "title": "Savings Dai (SDAI)",
-      "path": "./page/SDAIUSD_KLINE.html",
-      "keywords": ["SDAI"],
+      "path": "./page/SDAI_KLINE.html",
+      "keywords": ["SDAI", "Savings Dai"],
       "category": "加密貨幣"
     },
     {
       "title": "柴犬幣 (SHIB)",
-      "path": "./page/SHIBUSD_KLINE.html",
-      "keywords": ["Shiba Inu", "SHIB", "柴犬幣"],
+      "path": "./page/SHIB_KLINE.html",
+      "keywords": ["柴犬幣", "Shiba Inu", "SHIB"],
       "category": "加密貨幣"
     },
     {
       "title": "SKY2 (SKY2)",
-      "path": "./page/SKY2USD_KLINE.html",
+      "path": "./page/SKY2_KLINE.html",
       "keywords": ["SKY2"],
       "category": "加密貨幣"
     },
     {
       "title": "SMART2 (SMART2)",
-      "path": "./page/SMART2USD_KLINE.html",
+      "path": "./page/SMART2_KLINE.html",
       "keywords": ["SMART2"],
       "category": "加密貨幣"
     },
     {
       "title": "索拉納 (SOL)",
-      "path": "./page/SOLUSD_KLINE.html",
-      "keywords": ["索拉納", "SOL", "Solana"],
+      "path": "./page/SOL_KLINE.html",
+      "keywords": ["Solana", "索拉納", "SOL"],
       "category": "加密貨幣"
     },
     {
       "title": "SONI (SONI)",
-      "path": "./page/SONIUSD_KLINE.html",
+      "path": "./page/SONI_KLINE.html",
       "keywords": ["SONI"],
       "category": "加密貨幣"
     },
     {
       "title": "Staked Ether (STETH)",
-      "path": "./page/STETHUSD_KLINE.html",
-      "keywords": ["STETH"],
+      "path": "./page/STETH_KLINE.html",
+      "keywords": ["STETH", "Staked Ether"],
       "category": "加密貨幣"
     },
     {
       "title": "Sui (SUI)",
-      "path": "./page/SUIUSD_KLINE.html",
-      "keywords": ["SUI"],
+      "path": "./page/SUI_KLINE.html",
+      "keywords": ["Sui", "SUI"],
       "category": "加密貨幣"
     },
     {
-      "title": "SE (SE)",
-      "path": "./page/SUSDEUSD_KLINE.html",
-      "keywords": ["SE"],
+      "title": "SUSDE (SUSDE)",
+      "path": "./page/SUSDE_KLINE.html",
+      "keywords": ["SUSDE"],
       "category": "加密貨幣"
     },
     {
       "title": "TAOB (TAOB)",
-      "path": "./page/TAOBUSD_KLINE.html",
+      "path": "./page/TAOB_KLINE.html",
       "keywords": ["TAOB"],
       "category": "加密貨幣"
     },
     {
       "title": "TIA2 (TIA2)",
-      "path": "./page/TIA2USD_KLINE.html",
+      "path": "./page/TIA2_KLINE.html",
       "keywords": ["TIA2"],
       "category": "加密貨幣"
     },
     {
       "title": "Trillioner (TLC)",
-      "path": "./page/TLCUSD_KLINE.html",
-      "keywords": ["TLC"],
+      "path": "./page/TLC_KLINE.html",
+      "keywords": ["Trillioner", "TLC"],
       "category": "加密貨幣"
     },
     {
       "title": "Toncoin (TON)",
-      "path": "./page/TONUSD_KLINE.html",
-      "keywords": ["TON"],
+      "path": "./page/TON_KLINE.html",
+      "keywords": ["Toncoin", "TON"],
       "category": "加密貨幣"
     },
     {
       "title": "TRUMPOF (TRUMPOF)",
-      "path": "./page/TRUMPOFUSD_KLINE.html",
+      "path": "./page/TRUMPOF_KLINE.html",
       "keywords": ["TRUMPOF"],
       "category": "加密貨幣"
     },
     {
       "title": "波場幣 (TRX)",
-      "path": "./page/TRXUSD_KLINE.html",
+      "path": "./page/TRX_KLINE.html",
       "keywords": ["TRON", "TRX", "波場幣"],
       "category": "加密貨幣"
     },
     {
       "title": "尤尼幣 (UNI)",
-      "path": "./page/UNIUSD_KLINE.html",
-      "keywords": ["Uniswap", "UNI", "尤尼幣"],
+      "path": "./page/UNI_KLINE.html",
+      "keywords": ["Uniswap", "尤尼幣", "UNI"],
       "category": "加密貨幣"
     },
     {
-      "title": "C (C)",
-      "path": "./page/USDCUSD_KLINE.html",
-      "keywords": ["C"],
+      "title": "USDC (USDC)",
+      "path": "./page/USDC_KLINE.html",
+      "keywords": ["USDC"],
       "category": "加密貨幣"
     },
     {
-      "title": "EE (EE)",
-      "path": "./page/USDEEUSD_KLINE.html",
-      "keywords": ["EE"],
+      "title": "USDEE (USDEE)",
+      "path": "./page/USDEE_KLINE.html",
+      "keywords": ["USDEE"],
       "category": "加密貨幣"
     },
     {
-      "title": "S2 (S2)",
-      "path": "./page/USDS2USD_KLINE.html",
-      "keywords": ["S2"],
+      "title": "USDS2 (USDS2)",
+      "path": "./page/USDS2_KLINE.html",
+      "keywords": ["USDS2"],
       "category": "加密貨幣"
     },
     {
-      "title": "Threshold Network Token (T)",
-      "path": "./page/USDTUSD_KLINE.html",
-      "keywords": ["T"],
+      "title": "泰達幣 (USDT)",
+      "path": "./page/USDT_KLINE.html",
+      "keywords": ["Tether", "泰達幣", "USDT"],
       "category": "加密貨幣"
     },
     {
       "title": "VeChain (VET)",
-      "path": "./page/VETUSD_KLINE.html",
-      "keywords": ["VET"],
+      "path": "./page/VET_KLINE.html",
+      "keywords": ["VET", "VeChain"],
       "category": "加密貨幣"
     },
     {
       "title": "Wrapped Beacon ETH (WBETH)",
-      "path": "./page/WBETHUSD_KLINE.html",
-      "keywords": ["WBETH"],
-      "category": "加密貨幣"
-    },
-    {
-      "title": "Wrapped Bitcoin (WBTC)",
-      "path": "./page/WBTCUSD_KLINE.html",
-      "keywords": ["WBTC"],
+      "path": "./page/WBETH_KLINE.html",
+      "keywords": ["WBETH", "Wrapped Beacon ETH"],
       "category": "加密貨幣"
     },
     {
       "title": "WhiteBIT Token (WBT)",
-      "path": "./page/WBTUSD_KLINE.html",
-      "keywords": ["WBT"],
+      "path": "./page/WBT_KLINE.html",
+      "keywords": ["WhiteBIT Token", "WBT"],
+      "category": "加密貨幣"
+    },
+    {
+      "title": "Wrapped Bitcoin (WBTC)",
+      "path": "./page/WBTC_KLINE.html",
+      "keywords": ["WBTC", "Wrapped Bitcoin"],
       "category": "加密貨幣"
     },
     {
       "title": "Wrapped eETH (WEETH)",
-      "path": "./page/WEETHUSD_KLINE.html",
-      "keywords": ["WEETH"],
+      "path": "./page/WEETH_KLINE.html",
+      "keywords": ["Wrapped eETH", "WEETH"],
       "category": "加密貨幣"
     },
     {
       "title": "WETH (WETH)",
-      "path": "./page/WETHUSD_KLINE.html",
+      "path": "./page/WETH_KLINE.html",
       "keywords": ["WETH"],
       "category": "加密貨幣"
     },
     {
       "title": "Lido wstETH (WSTETH)",
-      "path": "./page/WSTETHUSD_KLINE.html",
-      "keywords": ["WSTETH"],
+      "path": "./page/WSTETH_KLINE.html",
+      "keywords": ["WSTETH", "Lido wstETH"],
       "category": "加密貨幣"
     },
     {
       "title": "XDC Network (XDC)",
-      "path": "./page/XDCUSD_KLINE.html",
-      "keywords": ["XDC"],
+      "path": "./page/XDC_KLINE.html",
+      "keywords": ["XDC", "XDC Network"],
       "category": "加密貨幣"
     },
     {
       "title": "恆星幣 (XLM)",
-      "path": "./page/XLMUSD_KLINE.html",
-      "keywords": ["恆星幣", "XLM", "Stellar"],
+      "path": "./page/XLM_KLINE.html",
+      "keywords": ["XLM", "恆星幣", "Stellar"],
       "category": "加密貨幣"
     },
     {
       "title": "Monero (XMR)",
-      "path": "./page/XMRUSD_KLINE.html",
-      "keywords": ["XMR"],
+      "path": "./page/XMR_KLINE.html",
+      "keywords": ["XMR", "Monero"],
       "category": "加密貨幣"
     },
     {
       "title": "瑞波幣 (XRP)",
-      "path": "./page/XRPUSD_KLINE.html",
-      "keywords": ["Ripple", "瑞波幣", "XRP"],
+      "path": "./page/XRP_KLINE.html",
+      "keywords": ["瑞波幣", "Ripple", "XRP"],
       "category": "加密貨幣"
     },
     {
       "title": "Zetrix (ZETRIX)",
-      "path": "./page/ZETRIXUSD_KLINE.html",
-      "keywords": ["ZETRIX"],
+      "path": "./page/ZETRIX_KLINE.html",
+      "keywords": ["ZETRIX", "Zetrix"],
       "category": "加密貨幣"
     }
   ],
